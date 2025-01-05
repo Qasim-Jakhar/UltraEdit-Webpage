@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge: Ultraedit Body</title>
+    <style>
+        body {
+            font-family: 'Segoe UI';
+        }
+      
+
+
+
+        main {
+            margin-left: 80px;
+            margin-top: 25px;
+        }
+
+        .dnld {
+            display: grid;
+            grid-template-columns: repeat(3, 350px);
+            margin-left: 0;
+        }
+
+        .Download {
+            display: grid;
+            grid-template-columns: 75px 230px 375px;
+            grid-template-rows: 50px;
+            justify-items: center;
+            align-items: center;
+        }
+
+        .A {
+
+            color: rgb(107, 104, 104);
+            font-size: 23px;
+            font-weight: 400;
+        }
+
+        img {
+            width: 60px;
+            height: 60px;
+            grid-row: 1/2;
+        }
+.button>a{
+    text-decoration: none;
+}
+
+
+        .link {
+            text-decoration: none;
+            color: grey;
+        }
+
+        .dlver {
+            margin-top: 40px;
+            margin-left: 40px;
+            display: grid;
+            grid-template-columns: 250px 200px 200px;
+            grid-template-rows: 30px [link] 35px 70px 70px;
+            align-items: center;
+            justify-items: center;
+           
+        }
+
+
+        h3 {
+            font-weight: 700;
+            font-size: 18px;
+        }
+        h4{
+            margin-bottom: 15px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            color: #222;
+        }
+
+        h4 {
+            grid-row: 2/2;
+            font-weight: 400;
+        }
+
+        .dlver .button {
+            width: 150px;
+            height: 35px;
+            grid-row: 3/3;
+            align-self: self-end;
+            background-color: #5cb85c;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 8px;
+        }
+
+
+        .button>a {
+            color: #fff;
+        }
+
+        .dlver .hash {
+            font-size: 8px;
+            grid-row: 4/4;
+            text-align: center;
+        }
+
+        @media only screen and (max-width: 768px) {
+    .dnld {
+        display: grid;
+        grid-template-columns: 1fr ;
+        margin-left: 0;
+    }
+    .dlver {
+        grid-template-columns: 1fr ;
+        justify-items: stretch;
+        align-items: stretch;
+        margin-left: 0;
+    }
+    .Download{
+        grid-template-columns: 1fr ;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="Download">
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE_logo_icon_white.png" alt="logo">
+            </div>
+            <h3 class="A">Download UltraEdit&nbsp;</h3>
+            <div class="ver">
+                v2024.2 (released 2024-12-20) | <a class="link" href="https://www.ultraedit.com/updates/uehotfix/">
+                    Hotfix information </a>
+            </div>
+
+        </div>
+        <div class="dnld">
+            <div>
+                <div class="dlver">
+                    <h3>
+                        <strong>English
+                        </strong>
+                    </h3>
+                    <!-- <h4>&nbsp;</h4> -->
+                    <div class="button">
+                        <a  href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="hash">
+                        SHA256
+                        <p class="ue_copied_hash">55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD75C3B0BA8612</p>
+                    </div>
+                </div>
+                <div class="dlver">
+
+                    <h3>
+                        <strong>Español
+                        </strong>
+                    </h3>
+                    <h4><small>Spanish</small></h4>
+
+                    <div class="button b2">
+                        <a  href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="hash">
+                        SHA256
+                        <p class="ue_copied_hash">06F57A02F88D38ED6EC230CB5ACC56BE2DE0A02D8CA9272EDDD150745BA39535</p>
+                    </div>
+
+                </div>
+                <div class="dlver">
+                    <h3>
+                        <strong>日本
+                        </strong>
+                    </h3>
+                    <h4><small>Japanese</small></h4>
+                    <div class="button">
+                        <a  href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="hash">
+                        SHA256
+                        <p class="ue_copied_hash">55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD75C3B0BA8612</p>
+                    </div>
+                </div>
+                <div class="dlver">
+                    <h3>
+                        <strong>中國
+                        </strong>
+                    </h3>
+                    <h4><small>Traditional Chinese</small></h4>
+                    <div class="button">
+                        <a href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="hash">
+                        SHA256
+                        <p class="ue_copied_hash">55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD75C3B0BA8612</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="dlver">
+                    <h3>
+                        <strong>Deutsch
+                        </strong>
+                    </h3>
+                    <h4><small>German</small></h4>
+                    <div class="button  ">
+                        <a  href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="hash">
+                        SHA256
+                        <p class="ue_copied_hash">55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD75C3B0BA8612</p>
+                    </div>
+                </div>
+                <div class="dlver">
+                    <h3>
+                        <strong>français
+                        </strong>
+                    </h3>
+                    <h4><small>French</small></h4>
+                    <div class="button ">
+                        <a  href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="hash">
+                        SHA256
+                        <p class="ue_copied_hash">55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD75C3B0BA8612</p>
+                    </div>
+                </div>
+                <div class="dlver">
+                    <h3>
+                        <strong>한국어
+                        </strong>
+                    </h3>
+                    <h4><small>Korean</small></h4>
+                    <div class="button ">
+                        <a  href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="hash">
+                        SHA256
+                        <p class="ue_copied_hash">55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD75C3B0BA8612</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="dlver">
+                    <h3>
+                        <strong>Italiano
+                        </strong>
+                    </h3>
+                    <h4><small>Italian</small></h4>
+                    <div class="button">
+                        <a  href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="hash">
+                        SHA256
+                        <p class="ue_copied_hash">3834804571F172E621CE24A6039F6ACCFE9B90D0DE9E78385B200DEA5CC64326</p>
+                    </div>
+                </div>
+                <div class="dlver">
+                    <h3>
+                        <strong>Português brasileiro
+                        </strong>
+                    </h3>
+                    <h4><small>Brazilian Portuguese</small></h4>
+                    <div class="button">
+                        <a  href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="hash">
+                        SHA256
+                        <p class="ue_copied_hash">55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD75C3B0BA8612</p>
+                    </div>
+                </div>
+                    <div class="dlver">
+                    <h3>
+                        <strong>中国
+                        </strong>
+                    </h3>
+                    <h4><small>Chinese</small></h4>
+                    <div class="button">
+                        <a  href="ue_english_64.exe">Download 64-bit</a>
+                    </div>
+                    <div class="hash">
+                        SHA256
+                        <p class="ue_copied_hash">55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD75C3B0BA8612</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
